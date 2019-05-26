@@ -1,3 +1,6 @@
+test: vs
+	./vs 321
+
 vs: interp.o main.o
 	g++ -o $@ $^
 
